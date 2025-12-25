@@ -15,4 +15,4 @@ services:
     volumes:
       - ./data:/data
       - ./plugins:/plugins # Pour ajouter des plugins manuellement
-    restart: unless-stopped
+    #restart: unless-stopped
